@@ -1,0 +1,52 @@
+body {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.input-box {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+.dark .input-box {
+    background-color: #374151;
+    color: white;
+    border-color: #555;
+}
+
+.drop-area {
+    border: 2px dashed #007bff;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+.dark .drop-area {
+    background-color: #374151;
+    border-color: #555;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
